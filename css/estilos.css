@@ -14,7 +14,8 @@ h1{
   margin-top: 0px;
   padding-top: -10px;
 }
-a{
+nav a{
+  font-size: 25px;
   color: white;
   text-decoration: underline;
 }
@@ -23,7 +24,7 @@ nav a:hover{
 }
 
 nav{
-  margin-top: -60px;
+  margin-top: -65px;
   height: 100%;
 }
 .cabecera{
@@ -38,6 +39,17 @@ nav{
   text-align: left;
   padding-top: 30px;
 }
+.ImagenPrincipal{
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 40px;
+  background-color: #82c3a6;
+}
+.ImagenPrincipal img{
+  height: 60%;
+  width: 90%;
+  border: 2px solid black;
+}
 ul{
   list-style-type: none;
   margin: 0;
@@ -50,4 +62,46 @@ li{
   margin: 0px 5px;
   padding: 15px 0px;
   height: 100%;
+}
+
+.Contenedor2{
+  display: flex;
+  background-color: #d5c75f;
+}
+
+.ImagenSegIzq{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+.ImagenSegIzq img{
+  height: 90%;
+  width: 85%;
+  border: 2px solid black;
+  margin-left: 35px;
+}
+
+.ImagenSegIzq img:hover{
+  transform: rotate(10deg);
+
+}
+
+.ImagenSegDer{
+  margin-top: 50px;
+  text-align: center;
+margin-bottom: 30px;
+}
+
+.ImagenSegDer img{
+  height: 90%;
+  width: 80%;
+  border: 2px solid black;
+}
+
+
+picture a{
+  text-align: center;
+  font-size: 25px;
+  color: black;
 }
