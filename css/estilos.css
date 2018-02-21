@@ -80,17 +80,18 @@ li{
   width: 85%;
   border: 2px solid black;
   margin-left: 35px;
+
 }
 
 .ImagenSegIzq img:hover{
-  transform: rotate(10deg);
+  animation: foto1 3s;
 
 }
 
 .ImagenSegDer{
   margin-top: 50px;
   text-align: center;
-margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .ImagenSegDer img{
@@ -99,9 +100,26 @@ margin-bottom: 30px;
   border: 2px solid black;
 }
 
+.ImagenSegDer img:hover{
+animation: foto2 3s;
+  /* transform: translate(20px, -5px); */
+}
 
 picture a{
   text-align: center;
   font-size: 25px;
   color: black;
+}
+
+@-webkit-keyframes foto1{
+  100%{
+  transform: rotate(10deg);
+        }
+}
+
+
+@-webkit-keyframes foto2{
+  100%{
+  transform: translate(20px, -5px);
+      }
 }
