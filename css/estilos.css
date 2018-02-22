@@ -67,6 +67,7 @@ li{
 .Contenedor2{
   display: flex;
   background-color: #d5c75f;
+  margin-bottom: -20px;
 }
 
 .ImagenSegIzq{
@@ -122,4 +123,37 @@ picture a{
   100%{
   transform: translate(20px, -5px);
       }
+}
+
+.PiePagina{
+  padding-top: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 10px;
+  background-color: #C6d5c5;
+  display: flex;
+}
+
+.Contacto{
+  width: 25%;
+  padding-left: 80px;
+}
+
+.Terminos{
+  width: 25%;
+  padding-left: 40px;
+}
+
+.Redes{
+  width: 25%;
+  padding-left: 40px;
+}
+
+.Redes img{
+  float: left;
+}
+
+.Derechos{
+  width: 25%;
+  padding-left: 40px;
 }
