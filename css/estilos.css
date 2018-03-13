@@ -97,7 +97,15 @@ li{
   animation: foto1 3s;
 
 }
-
+#inicio{
+  text-decoration: none;
+}
+#paisaje{
+  text-decoration: none;
+}
+#retrato{
+  text-decoration: none;
+}
 .ImagenSegDer{
   margin-top: 50px;
   text-align: center;
@@ -192,7 +200,7 @@ picture a{
 }
 .paisaje3{
    -webkit-filter: sepia(90%);
-        filter: sepia(90%); 
+        filter: sepia(90%);
 }
 .paisaje4{
   -webkit-filter: grayscale(100%);
